@@ -1,0 +1,16 @@
+body {
+    color: #5d666a;
+    font-family: sans-serif;
+}
+.ad {
+    background-color: lightblue;
+    width: 100%;
+}
+.ad-flight {
+    background-image: url(./assets/map.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    height: 100%;
+    width: 100%;
+}
