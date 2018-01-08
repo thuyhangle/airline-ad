@@ -7,10 +7,45 @@ body {
     width: 100%;
 }
 .ad-flight {
-    background-image: url(./assets/map.png);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#bg {
+    position: relative; 
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+#bg img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+
+#demo {
+    width: 40%;
+    height: 10%;
+    background-color: #333;
+    padding: 8px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+}
+#logo {
+    position: relative;
+    width: 10%;
+    height: 60px;
+    background-image: url(./assets/plane.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
-    height: 100%;
-    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid #000 10px;
+}
+#logo p {
+    margin-top: 0px;
+    margin-left: 50px;
+    line-height: 60px;
 }
