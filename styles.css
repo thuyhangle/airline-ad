@@ -32,6 +32,9 @@ body {
     position: absolute;
     top: 10%;
     left: 50%;
+        -ms-transform: rotate(15deg); /* IE 9 */
+    -webkit-transform: rotate(15deg); /* Safari */
+    transform: rotate(15deg);
 }
 #logo {
     position: relative;
