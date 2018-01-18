@@ -25,30 +25,30 @@ body {
 }
 
 #demo {
-    width: 40%;
+    width: 34%;
     height: 10%;
-    background-color: #333;
-    padding: 8px;
+    background-color: transparent;
+    padding: 0;
     position: absolute;
-    top: 10%;
-    left: 50%;
-        -ms-transform: rotate(15deg); /* IE 9 */
-    -webkit-transform: rotate(15deg); /* Safari */
-    transform: rotate(15deg);
+    top: 15%;
+    left: 51%;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg);
 }
 #logo {
     position: relative;
     width: 10%;
-    height: 60px;
+    height: 100%;
+    min-height: 60px;
+    min-width: 20px;
     background-image: url(./assets/plane.png);
     background-repeat:no-repeat;
     background-size:contain;
     background-position:center;
     font-family: Arial, Helvetica, sans-serif;
-    border-bottom: solid #000 10px;
+    border-bottom: solid transparent 6px;
+    color: #0f0687;
 }
-#logo p {
-    margin-top: 0px;
-    margin-left: 50px;
-    line-height: 60px;
-}
+#logo p {  
+    line-height: 10px;}

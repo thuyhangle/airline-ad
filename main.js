@@ -4,6 +4,8 @@ window.onload = function() {
 
     var tl = new TimelineMax({repeat:-1, yoyo: true})
 
-    tl.to("#logo", 4, {x:550, ease:Linear.easeNone})
-      .to("#logo", 2, {y:-65, ease:Power1.easeInOut, repeat:1, yoyo:true,  borderBottomColor:"#74e691", color:"white"}, 0)
+    tl.to("#logo", 4, {x:"900%", ease:Linear.easeNone})
+      .to("#logo", 2, {y:"-100%", ease:Power1.easeInOut, repeat:1, yoyo:true,  borderBottomColor:"#0f0687"}, 0)
 }
+
+
